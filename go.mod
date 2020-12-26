@@ -4,6 +4,7 @@ go 1.15
 
 require (
 	github.com/GaruGaru/duty v0.0.0-20190213134635-eef338d3b083
+	github.com/GeertJohan/go.rice v1.0.2
 	github.com/fsnotify/fsnotify v1.4.7
 	github.com/gorilla/mux v1.6.2
 	github.com/gorilla/sessions v1.1.3

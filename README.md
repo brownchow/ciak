@@ -1,8 +1,9 @@
 # Ciak is a lightweight media server written in go
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/GaruGaru/ciak)](https://goreportcard.com/report/github.com/GaruGaru/ciak)
-![Go](https://github.com/GaruGaru/ciak/workflows/Go/badge.svg)
-![Docker](https://github.com/GaruGaru/ciak/workflows/Docker/badge.svg)
+![go-build-test](https://github.com/GaruGaru/ciak/workflows/go-build-test/badge.svg)
+![docker-build](https://github.com/GaruGaru/ciak/workflows/docker-build/badge.svg)
+![release](https://github.com/GaruGaru/ciak/workflows/release/badge.svg)
 ![Docker Pulls](https://img.shields.io/docker/pulls/garugaru/ciak)
 ![license](https://img.shields.io/github/license/GaruGaru/ciak.svg)
 
@@ -47,12 +48,6 @@ You can configure Ciak using the command line flags
 * **--media** media files directory (default /data)
 
 * **--auth** enable web server authentication (default false) the authentication is configured by the env variables **CIAK_USERNAME** and **CIAK_PASSWORD**
-
-* **--auto-convert-media** automatically converts the medias to a streamable format (eg: mkv->mp4) (default false)
-
-* **--delete-original-media** delete original media after conversion to save up space (default false)
-
-* **--transfer-path** enable transfer feature that allows media copy from a device to another using the web ui 
 
 * **--omdb-api-key** omdbapi.com api key used for movie metadata retrieving 
 
